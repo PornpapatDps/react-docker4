@@ -9,7 +9,7 @@ import { Button, CardActions } from '@mui/material';
 export default function MyCard(props) {
   return (
     <Card sx={{ maxWidth: 345 }}>
-  <CardMedia
+  <CardMedia 
     component="img"
     height="140"
     image={props.attraction.coverimage}
@@ -23,7 +23,7 @@ export default function MyCard(props) {
     <Typography variant="body2" 
       sx={{ color: 'text.secondary', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
       {props.attraction.detail} 
-    </Typography>
+    </Typography> 
   </CardContent> 
   <CardActions>
     <Button size="small">XcXX1</Button>
