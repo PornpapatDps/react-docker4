@@ -26,8 +26,8 @@ export default function MyCard(props) {
     </Typography>
   </CardContent> 
   <CardActions>
-    <Button size="small">XXX</Button>
-    <Button size="small">Learn More</Button>
+    <Button size="small">XXX1</Button>
+    <Button size="small">Learn More</Button> 
   </CardActions>
 </Card>
 
