@@ -1,0 +1,18 @@
+npm i  หรือ npm install
+เปิด
+npm run dev 
+
+#การbuild 
+npx serve -s dist 
+
+#create pods 
+docker run -d -p 3000:3000 --name react-docker pornpapat/react-docker-test4:0.1
+
+#check images 
+docker ps --all
+
+#stop containers
+docker stop <container name>
+
+#remove containers
+docker rm  <container name>

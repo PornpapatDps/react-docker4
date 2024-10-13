@@ -1,3 +1,4 @@
+#FROM node: ตามด้วยversion 
 FROM node:18
 
 WORKDIR /app
