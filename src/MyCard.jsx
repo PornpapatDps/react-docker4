@@ -24,7 +24,7 @@ export default function MyCard(props) {
       sx={{ color: 'text.secondary', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
       {props.attraction.detail}
     </Typography>
-  </CardContent>
+  </CardContent> 
   <CardActions>
     <Button size="small">XXX</Button>
     <Button size="small">Learn More</Button>
