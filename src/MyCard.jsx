@@ -22,11 +22,11 @@ export default function MyCard(props) {
     </Typography>
     <Typography variant="body2" 
       sx={{ color: 'text.secondary', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-      {props.attraction.detail}
+      {props.attraction.detail} 
     </Typography>
   </CardContent> 
   <CardActions>
-    <Button size="small">XXX1</Button>
+    <Button size="small">XcXX1</Button>
     <Button size="small">Learn More</Button> 
   </CardActions>
 </Card>
